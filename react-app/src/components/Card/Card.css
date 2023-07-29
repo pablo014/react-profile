@@ -1,0 +1,16 @@
+.box {
+    width: 500px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /* copied from the generator */
+    clip-path: polygon(0 80.00px,80.00px 0,calc(100% - 80.00px) 0,100% 80.00px,100% calc(100% - 80.00px),calc(100% - 80.00px) 100%,80.00px 100%,0 calc(100% - 80.00px));
+}
+.box:before {
+    content:"";
+    position:absolute;
+    inset:0;
+    background: blue;
+    /* copied from the generator */
+    clip-path: polygon(0 80.00px,80.00px 0,calc(100% - 80.00px) 0,100% 80.00px,100% calc(100% - 80.00px),calc(100% - 80.00px) 100%,80.00px 100%,0 calc(100% - 80.00px),0 80.00px,10px  calc(80.00px + 4.14px),10px calc(100% - 80.00px - 4.14px),calc(80.00px + 4.14px) calc(100% - 10px),calc(100% - 80.00px - 4.14px) calc(100% - 10px),calc(100% - 10px) calc(100% - 80.00px - 4.14px),calc(100% - 10px) calc(80.00px + 4.14px),calc(100% - 80.00px - 4.14px) 10px,calc(80.00px + 4.14px) 10px,10px calc(80.00px + 4.14px));
+}

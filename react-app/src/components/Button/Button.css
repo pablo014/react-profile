@@ -32,6 +32,7 @@ span {
     z-index: 1;
     transition: all 0.3s;
     border: 3px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px 10px #fff;
 }
 
 .btn:hover::after {
@@ -45,7 +46,6 @@ span {
 .btn:hover::after, .btn:hover::before {
     left: 96px;
     width: 64px;
-
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
